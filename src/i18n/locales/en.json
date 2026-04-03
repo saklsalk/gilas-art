@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "about": "About",
+    "classes": "Classes",
+    "gallery": "Gallery",
+    "testimonials": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Home Art Classes in Berlin Schöneberg",
+    "cta": "Write Me",
+    "scroll": "Discover more"
+  },
+  "about": {
+    "heading": "About Gila",
+    "passage": "Art has been my language for as long as I can remember. From my early studies in Moscow to the vibrant art scene in Israel, I've always been drawn to the moment when someone picks up a brush for the first time — and discovers something about themselves they didn't know was there.",
+    "passage2": "I bring years of experience in art education and art therapy. I've worked with children, teenagers, adults — people from all walks of life. Each person sees the world differently, and I love helping them express that unique vision through their hands.",
+    "passage3": "My classes happen in the warmth of a home, not an institution. Here, there is no right or wrong — only discovery, colour, and the joy of creating something that is truly yours.",
+    "badges": {
+      "education": "Art Education",
+      "pedagogy": "Pedagogy",
+      "therapy": "Art Therapy",
+      "children": "Working with Children"
+    },
+    "languages": "I speak English, German, Russian & Hebrew"
+  },
+  "classes": {
+    "heading": "Classes & Formats",
+    "subheading": "Drawing, painting, crafts and sculpture — for children and adults",
+    "private": {
+      "title": "Private Lessons",
+      "description": "One-on-one sessions tailored entirely to you or your child. We work at your pace, on what inspires you most.",
+      "for": "Kids & Adults",
+      "price": "From 35€ / session"
+    },
+    "group": {
+      "title": "Group Classes",
+      "description": "Create together in a small group. Share ideas, learn techniques, and enjoy the energy of making art side by side.",
+      "for": "Kids & Adults",
+      "price": "From 20€ / session"
+    },
+    "project": {
+      "title": "Art Project Help",
+      "description": "Need help with a school art project, a portfolio, or a specific creative challenge? I'll guide you through it.",
+      "for": "Kids & Teens",
+      "price": "On request"
+    },
+    "join": {
+      "title": "Join a Group",
+      "description": "Jump into an existing group session. A great way to try it out and meet other creative minds.",
+      "for": "Kids & Adults",
+      "price": "From 18€ / session"
+    },
+    "cta": "Write Me"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "subheading": "A glimpse into our creative world",
+    "filters": {
+      "all": "All",
+      "kids": "Kids",
+      "adults": "Adults",
+      "artwork": "Artwork"
+    }
+  },
+  "testimonials": {
+    "heading": "What Parents Say",
+    "items": [
+      {
+        "quote": "My daughter comes home glowing every time. Gila has a gift for making every child feel like a real artist.",
+        "name": "Anna M.",
+        "detail": "Mother of Mia, age 7"
+      },
+      {
+        "quote": "Finally found art classes where my son can express himself freely. The small group and home atmosphere make all the difference.",
+        "name": "Stefan K.",
+        "detail": "Father of Leo, age 10"
+      },
+      {
+        "quote": "I started as an adult beginner and Gila made me feel completely at ease. Her experience and warmth are extraordinary.",
+        "name": "Natalia V.",
+        "detail": "Adult student"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Create Together",
+    "subheading": "Flexible scheduling — write me and we'll find the perfect time",
+    "location": "Schöneberg, Berlin",
+    "whatsapp_cta": "Write Me on WhatsApp",
+    "whatsapp_prefill": "Hello! I'm interested in art classes with Gila. Could you tell me more?",
+    "or_email": "or send an email to"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gila's Art. All rights reserved.",
+    "made_with": "Made with love in Berlin"
+  },
+  "seo": {
+    "title": "Gila's Art — Home Art Classes in Berlin Schöneberg",
+    "description": "Creative art classes for children and adults with Gila Gilad in Berlin Schöneberg. Drawing, painting, crafts and sculpture in a warm home atmosphere."
+  }
+}

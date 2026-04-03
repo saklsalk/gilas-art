@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  /* Deep & Rich palette */
+  --color-deep-blue: #1B2A4A;
+  --color-deep-blue-light: #2A3D66;
+  --color-burgundy: #6B1D3A;
+  --color-burgundy-light: #8B2E4F;
+  --color-gold: #C9A84C;
+  --color-gold-light: #E0C872;
+  --color-gold-warm: #D4A843;
+  --color-dark-green: #2D4A3E;
+  --color-dark-green-light: #3D6353;
+  --color-cream: #FAF7F2;
+  --color-cream-warm: #F5EDE0;
+  --color-charcoal: #2C2C2C;
+  --color-charcoal-light: #4A4A4A;
+
+  /* Font families */
+  --font-display: "Playfair Display", serif;
+  --font-hand: "Caveat", cursive;
+  --font-body: "Source Sans 3", sans-serif;
+  --font-ui: "Inter", sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-warm);
+}
+
+/* Paint stroke underline animation */
+@keyframes brush-stroke {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* Color dot bloom */
+@keyframes bloom {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.3);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+
+/* Gentle float */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Pulse for WhatsApp button */
+@keyframes pulse-soft {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

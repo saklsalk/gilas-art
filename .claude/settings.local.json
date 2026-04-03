@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:Usersmichl.claude -name *.md -type f)",
+      "Bash(git config:*)",
+      "Bash(find C:/Users/michl/Documents -maxdepth 3 -name CittaFracta -o -name cittafracta -o -name citta*)",
+      "Bash(find C:/Users/michl -maxdepth 5 -type d -iname *citta*)",
+      "Bash(find C:/Users/michl -maxdepth 5 -type d -iname *fracta*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

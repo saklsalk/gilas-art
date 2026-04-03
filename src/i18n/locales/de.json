@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "classes": "Kurse",
+    "gallery": "Galerie",
+    "testimonials": "Bewertungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Kunstkurse bei dir Zuhause in Berlin Schöneberg",
+    "cta": "Schreib mir",
+    "scroll": "Mehr entdecken"
+  },
+  "about": {
+    "heading": "Über Gila",
+    "passage": "Kunst ist meine Sprache, solange ich denken kann. Von meinem Studium in Moskau bis zur lebendigen Kunstszene in Israel — mich hat immer der Moment fasziniert, in dem jemand zum ersten Mal einen Pinsel in die Hand nimmt und etwas über sich selbst entdeckt, das vorher verborgen war.",
+    "passage2": "Ich bringe jahrelange Erfahrung in Kunstpädagogik und Kunsttherapie mit. Ich habe mit Kindern, Jugendlichen und Erwachsenen gearbeitet — Menschen aus allen Lebensbereichen. Jeder Mensch sieht die Welt anders, und ich liebe es, ihnen zu helfen, diese einzigartige Sicht durch ihre Hände auszudrücken.",
+    "passage3": "Mein Unterricht findet in der Wärme eines Zuhauses statt, nicht in einer Institution. Hier gibt es kein Richtig oder Falsch — nur Entdeckung, Farbe und die Freude, etwas zu schaffen, das ganz und gar deins ist.",
+    "badges": {
+      "education": "Kunstausbildung",
+      "pedagogy": "Pädagogik",
+      "therapy": "Kunsttherapie",
+      "children": "Arbeit mit Kindern"
+    },
+    "languages": "Ich spreche Deutsch, Englisch, Russisch & Hebräisch"
+  },
+  "classes": {
+    "heading": "Kurse & Formate",
+    "subheading": "Zeichnen, Malen, Basteln und Skulptur — für Kinder und Erwachsene",
+    "private": {
+      "title": "Privatunterricht",
+      "description": "Einzelstunden, ganz auf dich oder dein Kind abgestimmt. Wir arbeiten in deinem Tempo, an dem, was dich am meisten inspiriert.",
+      "for": "Kinder & Erwachsene",
+      "price": "Ab 35€ / Stunde"
+    },
+    "group": {
+      "title": "Gruppenkurse",
+      "description": "Gemeinsam kreativ sein in einer kleinen Gruppe. Ideen teilen, Techniken lernen und die Energie des gemeinsamen Schaffens genießen.",
+      "for": "Kinder & Erwachsene",
+      "price": "Ab 20€ / Stunde"
+    },
+    "project": {
+      "title": "Kunst-Projekthilfe",
+      "description": "Brauchst du Hilfe bei einem Schulprojekt, einem Portfolio oder einer kreativen Herausforderung? Ich begleite dich dabei.",
+      "for": "Kinder & Jugendliche",
+      "price": "Auf Anfrage"
+    },
+    "join": {
+      "title": "Gruppe beitreten",
+      "description": "Steig in eine bestehende Gruppeneinheit ein. Eine tolle Möglichkeit, es auszuprobieren und andere kreative Köpfe kennenzulernen.",
+      "for": "Kinder & Erwachsene",
+      "price": "Ab 18€ / Stunde"
+    },
+    "cta": "Schreib mir"
+  },
+  "gallery": {
+    "heading": "Galerie",
+    "subheading": "Ein Blick in unsere kreative Welt",
+    "filters": {
+      "all": "Alle",
+      "kids": "Kinder",
+      "adults": "Erwachsene",
+      "artwork": "Kunstwerke"
+    }
+  },
+  "testimonials": {
+    "heading": "Was Eltern sagen",
+    "items": [
+      {
+        "quote": "Meine Tochter kommt jedes Mal strahlend nach Hause. Gila hat ein Talent dafür, jedem Kind das Gefühl zu geben, ein echter Künstler zu sein.",
+        "name": "Anna M.",
+        "detail": "Mutter von Mia, 7 Jahre"
+      },
+      {
+        "quote": "Endlich Kunstkurse gefunden, wo mein Sohn sich frei ausdrücken kann. Die kleine Gruppe und die heimelige Atmosphäre machen den Unterschied.",
+        "name": "Stefan K.",
+        "detail": "Vater von Leo, 10 Jahre"
+      },
+      {
+        "quote": "Ich habe als erwachsene Anfängerin angefangen und Gila hat mir sofort ein gutes Gefühl gegeben. Ihre Erfahrung und Wärme sind außergewöhnlich.",
+        "name": "Natalia V.",
+        "detail": "Erwachsene Schülerin"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Lass uns gemeinsam kreativ werden",
+    "subheading": "Flexible Terminplanung — schreib mir und wir finden die perfekte Zeit",
+    "location": "Schöneberg, Berlin",
+    "whatsapp_cta": "Schreib mir auf WhatsApp",
+    "whatsapp_prefill": "Hallo! Ich interessiere mich für Kunstkurse bei Gila. Können Sie mir mehr erzählen?",
+    "or_email": "oder schreib eine E-Mail an"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gila's Art. Alle Rechte vorbehalten.",
+    "made_with": "Mit Liebe in Berlin gemacht"
+  },
+  "seo": {
+    "title": "Gila's Art — Kunstkurse in Berlin Schöneberg",
+    "description": "Kreative Kunstkurse für Kinder und Erwachsene bei Gila Gilad in Berlin Schöneberg. Malen, Zeichnen, Basteln und Skulptur in gemütlicher Atmosphäre."
+  }
+}
