@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
           <div>
-            <span className="font-display text-xl font-bold text-beige">
+            <span className="font-logo text-xl text-beige">
               Gila&apos;s Art
             </span>
           </div>

@@ -17,6 +17,7 @@
   --color-ochre-light: #DBBF6A;
 
   /* Font families */
+  --font-logo: "Pacifico", cursive;
   --font-display: "Playfair Display", serif;
   --font-hand: "Caveat", cursive;
   --font-body: "Source Sans 3", sans-serif;

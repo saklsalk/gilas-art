@@ -34,7 +34,7 @@ export function Navbar() {
         {/* Brand */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className={`font-display text-2xl font-bold transition-colors ${
+          className={`font-logo text-2xl transition-colors ${
             scrolled ? 'text-beige' : 'text-dark-red'
           }`}
         >

@@ -15,17 +15,26 @@ export function About() {
   return (
     <Section id="about">
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        {/* Photo placeholder */}
-        <div className="relative mx-auto max-w-md lg:mx-0">
-          <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-sand shadow-xl">
-            {/* Placeholder — replace with Gila's photo */}
+        {/* Photo — round shape */}
+        <div className="relative mx-auto lg:mx-0">
+          <div className="h-72 w-72 overflow-hidden rounded-full border-4 border-terracotta/20 shadow-xl md:h-96 md:w-96">
+            {/*
+              Drop Gila's photo into: src/assets/about/gila.jpg
+              Then uncomment the <img> below and remove the placeholder <div>
+            */}
+            {/* <img
+              src="/src/assets/about/gila.jpg"
+              alt="Gila Gilad — Art Pedagogue"
+              className="h-full w-full object-cover"
+            /> */}
             <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-sand to-terracotta/20">
-              <span className="font-hand text-6xl text-terracotta/40">G</span>
+              <span className="font-logo text-6xl text-terracotta/40">G</span>
             </div>
           </div>
-          {/* Decorative paint accent */}
-          <div className="absolute -bottom-3 -right-3 h-24 w-24 rounded-full bg-terracotta/10" />
-          <div className="absolute -top-3 -left-3 h-16 w-16 rounded-full bg-ochre/15" />
+          {/* Decorative paint accents */}
+          <div className="absolute -bottom-2 -right-2 h-20 w-20 rounded-full bg-terracotta/10" />
+          <div className="absolute -top-2 -left-2 h-14 w-14 rounded-full bg-ochre/15" />
+          <div className="absolute -right-4 top-1/2 h-8 w-8 rounded-full bg-sage/20" />
         </div>
 
         {/* Text */}
