@@ -3,14 +3,20 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Section } from '../components/layout/Section'
 
-// Placeholder gallery items — replace with real images
 const GALLERY_ITEMS = [
-  { id: 1, category: 'kids', aspect: 'aspect-[3/4]', color: 'from-ochre/20 to-terracotta/10' },
-  { id: 2, category: 'artwork', aspect: 'aspect-square', color: 'from-sage/20 to-ochre/10' },
-  { id: 3, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-terracotta/15 to-umber/10' },
-  { id: 4, category: 'adults', aspect: 'aspect-[3/4]', color: 'from-umber/15 to-ochre/15' },
-  { id: 5, category: 'artwork', aspect: 'aspect-square', color: 'from-ochre/25 to-sage/10' },
-  { id: 6, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-terracotta/20 to-ochre/15' },
+  { id: 1,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47.jpeg' },
+  { id: 2,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47 (1).jpeg' },
+  { id: 3,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.48.jpeg' },
+  { id: 4,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.48 (1).jpeg' },
+  { id: 5,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.48 (3).jpeg' },
+  { id: 6,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.48 (4).jpeg' },
+  { id: 7,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.49.jpeg' },
+  { id: 8,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50.jpeg' },
+  { id: 9,  category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (2).jpeg' },
+  { id: 10, category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (3).jpeg' },
+  { id: 11, category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (4).jpeg' },
+  { id: 12, category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (5).jpeg' },
+  { id: 13, category: 'kids', src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (6).jpeg' },
 ]
 
 const FILTERS = ['all', 'kids', 'adults', 'artwork'] as const
@@ -65,15 +71,12 @@ export function Gallery() {
               transition={{ duration: 0.3 }}
               className="mb-4 break-inside-avoid"
             >
-              <div
-                className={`${item.aspect} w-full overflow-hidden rounded-xl bg-gradient-to-br ${item.color} shadow-sm transition-shadow hover:shadow-md`}
-              >
-                {/* Replace with real <img> tags when photos are available */}
-                <div className="flex h-full w-full items-center justify-center">
-                  <span className="font-hand text-3xl text-umber/20">
-                    {item.category === 'artwork' ? '🎨' : item.category === 'kids' ? '✏️' : '🖌️'}
-                  </span>
-                </div>
+              <div className="w-full overflow-hidden rounded-xl shadow-sm transition-shadow hover:shadow-md">
+                <img
+                  src={item.src}
+                  alt={`Gallery – ${item.category}`}
+                  className="w-full object-cover"
+                />
               </div>
             </motion.div>
           ))}
