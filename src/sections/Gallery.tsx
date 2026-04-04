@@ -5,12 +5,12 @@ import { Section } from '../components/layout/Section'
 
 // Placeholder gallery items — replace with real images
 const GALLERY_ITEMS = [
-  { id: 1, category: 'kids', aspect: 'aspect-[3/4]', color: 'from-gold/20 to-burgundy/10' },
-  { id: 2, category: 'artwork', aspect: 'aspect-square', color: 'from-dark-green/20 to-gold/10' },
-  { id: 3, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-burgundy/15 to-deep-blue/10' },
-  { id: 4, category: 'adults', aspect: 'aspect-[3/4]', color: 'from-deep-blue/15 to-gold/15' },
-  { id: 5, category: 'artwork', aspect: 'aspect-square', color: 'from-gold/25 to-dark-green/10' },
-  { id: 6, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-burgundy/20 to-gold/15' },
+  { id: 1, category: 'kids', aspect: 'aspect-[3/4]', color: 'from-ochre/20 to-terracotta/10' },
+  { id: 2, category: 'artwork', aspect: 'aspect-square', color: 'from-sage/20 to-ochre/10' },
+  { id: 3, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-terracotta/15 to-umber/10' },
+  { id: 4, category: 'adults', aspect: 'aspect-[3/4]', color: 'from-umber/15 to-ochre/15' },
+  { id: 5, category: 'artwork', aspect: 'aspect-square', color: 'from-ochre/25 to-sage/10' },
+  { id: 6, category: 'kids', aspect: 'aspect-[4/3]', color: 'from-terracotta/20 to-ochre/15' },
 ]
 
 const FILTERS = ['all', 'kids', 'adults', 'artwork'] as const
@@ -27,10 +27,10 @@ export function Gallery() {
   return (
     <Section id="gallery">
       <div className="text-center">
-        <h2 className="font-display text-4xl font-bold text-deep-blue md:text-5xl">
+        <h2 className="font-display text-4xl font-bold text-dark-red md:text-5xl">
           {t('gallery.heading')}
         </h2>
-        <p className="mt-4 font-body text-lg text-charcoal-light">
+        <p className="mt-4 font-body text-lg text-umber-light">
           {t('gallery.subheading')}
         </p>
       </div>
@@ -43,8 +43,8 @@ export function Gallery() {
             onClick={() => setFilter(f)}
             className={`rounded-full px-5 py-2 font-ui text-sm transition-all ${
               filter === f
-                ? 'bg-deep-blue text-cream shadow-md'
-                : 'bg-cream-warm text-charcoal-light hover:bg-deep-blue/10'
+                ? 'bg-umber text-beige shadow-md'
+                : 'bg-sand text-umber-light hover:bg-umber/10'
             }`}
           >
             {t(`gallery.filters.${f}`)}
@@ -70,7 +70,7 @@ export function Gallery() {
               >
                 {/* Replace with real <img> tags when photos are available */}
                 <div className="flex h-full w-full items-center justify-center">
-                  <span className="font-hand text-3xl text-charcoal/20">
+                  <span className="font-hand text-3xl text-umber/20">
                     {item.category === 'artwork' ? '🎨' : item.category === 'kids' ? '✏️' : '🖌️'}
                   </span>
                 </div>

@@ -16,7 +16,7 @@ export function Section({ id, children, className = '', dark }: SectionProps) {
     <section
       id={id}
       ref={ref}
-      className={`${dark ? 'bg-deep-blue text-cream' : 'bg-cream text-charcoal'} ${className}`}
+      className={`${dark ? 'bg-umber text-beige' : 'bg-beige text-dark-red'} ${className}`}
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}

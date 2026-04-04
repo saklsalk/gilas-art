@@ -26,7 +26,7 @@ export function Navbar() {
     <header
       className={`fixed top-0 z-40 w-full transition-all duration-300 ${
         scrolled
-          ? 'bg-deep-blue/95 shadow-lg backdrop-blur-sm'
+          ? 'bg-umber/95 shadow-lg backdrop-blur-sm'
           : 'bg-transparent'
       }`}
     >
@@ -34,7 +34,9 @@ export function Navbar() {
         {/* Brand */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="font-display text-2xl font-bold text-cream"
+          className={`font-display text-2xl font-bold transition-colors ${
+            scrolled ? 'text-beige' : 'text-dark-red'
+          }`}
         >
           Gila&apos;s Art
         </button>
@@ -46,21 +48,27 @@ export function Navbar() {
               key={id}
               onClick={() => scrollTo(id)}
               className={`relative font-ui text-sm transition-colors ${
-                activeSection === id
-                  ? 'text-gold'
-                  : 'text-cream/70 hover:text-cream'
+                scrolled
+                  ? activeSection === id
+                    ? 'text-ochre'
+                    : 'text-beige/70 hover:text-beige'
+                  : activeSection === id
+                    ? 'text-terracotta'
+                    : 'text-umber/70 hover:text-umber'
               }`}
             >
               {t(`nav.${id}`)}
               {activeSection === id && (
                 <motion.span
                   layoutId="nav-underline"
-                  className="absolute -bottom-1 left-0 h-0.5 w-full rounded-full bg-gold"
+                  className={`absolute -bottom-1 left-0 h-0.5 w-full rounded-full ${
+                    scrolled ? 'bg-ochre' : 'bg-terracotta'
+                  }`}
                 />
               )}
             </button>
           ))}
-          <LanguageSwitcher />
+          <LanguageSwitcher scrolled={scrolled} />
         </div>
 
         {/* Mobile hamburger */}
@@ -70,19 +78,19 @@ export function Navbar() {
           aria-label="Toggle menu"
         >
           <span
-            className={`h-0.5 w-6 bg-cream transition-all ${
-              menuOpen ? 'translate-y-2 rotate-45' : ''
-            }`}
+            className={`h-0.5 w-6 transition-all ${
+              scrolled ? 'bg-beige' : 'bg-umber'
+            } ${menuOpen ? 'translate-y-2 rotate-45' : ''}`}
           />
           <span
-            className={`h-0.5 w-6 bg-cream transition-all ${
-              menuOpen ? 'opacity-0' : ''
-            }`}
+            className={`h-0.5 w-6 transition-all ${
+              scrolled ? 'bg-beige' : 'bg-umber'
+            } ${menuOpen ? 'opacity-0' : ''}`}
           />
           <span
-            className={`h-0.5 w-6 bg-cream transition-all ${
-              menuOpen ? '-translate-y-2 -rotate-45' : ''
-            }`}
+            className={`h-0.5 w-6 transition-all ${
+              scrolled ? 'bg-beige' : 'bg-umber'
+            } ${menuOpen ? '-translate-y-2 -rotate-45' : ''}`}
           />
         </button>
       </nav>
@@ -94,7 +102,7 @@ export function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="bg-deep-blue/98 px-5 pb-6 backdrop-blur-md md:hidden"
+            className="bg-umber/98 px-5 pb-6 backdrop-blur-md md:hidden"
           >
             <div className="flex flex-col gap-4 pt-2">
               {NAV_SECTIONS.map((id) => (
@@ -102,14 +110,14 @@ export function Navbar() {
                   key={id}
                   onClick={() => scrollTo(id)}
                   className={`text-left font-ui text-lg ${
-                    activeSection === id ? 'text-gold' : 'text-cream/80'
+                    activeSection === id ? 'text-ochre' : 'text-beige/80'
                   }`}
                 >
                   {t(`nav.${id}`)}
                 </button>
               ))}
               <div className="pt-2">
-                <LanguageSwitcher />
+                <LanguageSwitcher scrolled={true} />
               </div>
             </div>
           </motion.div>

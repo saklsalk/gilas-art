@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  /* Deep & Rich palette */
-  --color-deep-blue: #1B2A4A;
-  --color-deep-blue-light: #2A3D66;
-  --color-burgundy: #6B1D3A;
-  --color-burgundy-light: #8B2E4F;
-  --color-gold: #C9A84C;
-  --color-gold-light: #E0C872;
-  --color-gold-warm: #D4A843;
-  --color-dark-green: #2D4A3E;
-  --color-dark-green-light: #3D6353;
-  --color-cream: #FAF7F2;
-  --color-cream-warm: #F5EDE0;
-  --color-charcoal: #2C2C2C;
-  --color-charcoal-light: #4A4A4A;
+  /* Earthy & grounded palette */
+  --color-beige: #F5F5DC;
+  --color-sand: #EDE4D3;
+  --color-sand-light: #F7F2E8;
+  --color-dark-red: #8B0000;
+  --color-dark-red-light: #A52A2A;
+  --color-terracotta: #C2703E;
+  --color-terracotta-light: #D4895A;
+  --color-sage: #7A8B6F;
+  --color-sage-light: #96A78B;
+  --color-umber: #5C4033;
+  --color-umber-light: #7A5C4F;
+  --color-ochre: #C8A951;
+  --color-ochre-light: #DBBF6A;
 
   /* Font families */
   --font-display: "Playfair Display", serif;
@@ -39,16 +39,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-cream);
+  background: var(--color-beige);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-gold);
+  background: var(--color-terracotta);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-gold-warm);
+  background: var(--color-umber);
 }
 
 /* Paint stroke underline animation */

@@ -4,15 +4,15 @@ export function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="bg-deep-blue py-10 text-cream/60">
+    <footer className="bg-umber py-10 text-beige/60">
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
           <div>
-            <span className="font-display text-xl font-bold text-cream">
+            <span className="font-display text-xl font-bold text-beige">
               Gila&apos;s Art
             </span>
           </div>
-          <p className="font-hand text-lg text-gold/80">
+          <p className="font-hand text-lg text-ochre/80">
             {t('footer.made_with')}
           </p>
           <p className="text-sm">
