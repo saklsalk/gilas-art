@@ -18,18 +18,11 @@ export function About() {
         {/* Photo — round shape */}
         <div className="relative mx-auto lg:mx-0">
           <div className="h-72 w-72 overflow-hidden rounded-full border-4 border-terracotta/20 shadow-xl md:h-96 md:w-96">
-            {/*
-              Drop Gila's photo into: src/assets/about/gila.jpg
-              Then uncomment the <img> below and remove the placeholder <div>
-            */}
-            {/* <img
-              src="/src/assets/about/gila.jpg"
+            <img
+              src="/src/assets/about/gila.png"
               alt="Gila Gilad — Art Pedagogue"
               className="h-full w-full object-cover"
-            /> */}
-            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-sand to-terracotta/20">
-              <span className="font-logo text-6xl text-terracotta/40">G</span>
-            </div>
+            />
           </div>
           {/* Decorative paint accents */}
           <div className="absolute -bottom-2 -right-2 h-20 w-20 rounded-full bg-terracotta/10" />
