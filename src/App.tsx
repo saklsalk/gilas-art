@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { HelmetProvider } from 'react-helmet-async'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Navbar } from './components/layout/Navbar'
@@ -12,9 +14,19 @@ import { Contact } from './sections/Contact'
 import { MetaTags } from './seo/MetaTags'
 import { SchemaOrg } from './seo/SchemaOrg'
 
+function RtlManager() {
+  const { i18n } = useTranslation()
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'he' ? 'rtl' : 'ltr'
+    document.documentElement.lang = i18n.language
+  }, [i18n.language])
+  return null
+}
+
 function HomePage() {
   return (
     <>
+      <RtlManager />
       <MetaTags />
       <SchemaOrg />
       <Navbar />

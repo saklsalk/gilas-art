@@ -4,6 +4,7 @@ const LANGUAGES = [
   { code: 'de', label: 'DE' },
   { code: 'en', label: 'EN' },
   { code: 'ru', label: 'RU' },
+  { code: 'he', label: 'HE' },
 ] as const
 
 export function LanguageSwitcher({ scrolled = false }: { scrolled?: boolean }) {
