@@ -5,16 +5,16 @@ import { Section } from '../components/layout/Section'
 
 // ─── Edit captions here ───────────────────────────────────────────────────────
 const GALLERY_ITEMS = [
-  { id: 1,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47.jpeg' },
-  { id: 2,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47 (1).jpeg' },
-  { id: 3,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (3).jpeg' },
-  { id: 4,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (4).jpeg' },
-  { id: 5,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-04 at 11.02.11.jpeg' },
-  { id: 6,  category: 'kids',    caption: '3-4 years old',        src: '/src/assets/gallery/kids/WhatsApp Image 2026-04-04 at 11.02.11 (1).jpeg' },
-  { id: 7,  category: 'adults',  caption: 'a gift from a spaciel man to Shimon Peres',  src: '/src/assets/gallery/adults/WhatsApp Image 2026-04-04 at 10.57.46.jpeg' },
-  { id: 8,  category: 'adults',  caption: 'my studio of talented spacial people',  src: '/src/assets/gallery/adults/מבוגרים.png' },
-  { id: 9,  category: 'artwork', caption: 'self portrait',  src: '/src/assets/gallery/artwork/WhatsApp Image 2026-04-05 at 17.23.14.jpeg' },
-  { id: 10, category: 'artwork', caption: 'self portrait',  src: '/src/assets/gallery/artwork/WhatsApp Image 2026-04-05 at 17.23.15.jpeg' },
+  { id: 1,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47.jpeg' },
+  { id: 2,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.47 (1).jpeg' },
+  { id: 3,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (3).jpeg' },
+  { id: 4,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-03 at 14.40.50 (4).jpeg' },
+  { id: 5,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-04 at 11.02.11.jpeg' },
+  { id: 6,  category: 'kids',    caption: '3-4 years old',        src: '/gilas-art/assets/gallery/kids/WhatsApp Image 2026-04-04 at 11.02.11 (1).jpeg' },
+  { id: 7,  category: 'adults',  caption: 'a gift from a spaciel man to Shimon Peres',  src: '/gilas-art/assets/gallery/adults/WhatsApp Image 2026-04-04 at 10.57.46.jpeg' },
+  { id: 8,  category: 'adults',  caption: 'my studio of talented spacial people',  src: '/gilas-art/assets/gallery/adults/מבוגרים.png' },
+  { id: 9,  category: 'artwork', caption: 'self portrait',  src: '/gilas-art/assets/gallery/artwork/WhatsApp Image 2026-04-05 at 17.23.14.jpeg' },
+  { id: 10, category: 'artwork', caption: 'self portrait',  src: '/gilas-art/assets/gallery/artwork/WhatsApp Image 2026-04-05 at 17.23.15.jpeg' },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
 

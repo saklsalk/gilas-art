@@ -19,7 +19,7 @@ export function About() {
         <div className="relative mx-auto lg:mx-0">
           <div className="h-72 w-72 overflow-hidden rounded-full border-4 border-terracotta/20 shadow-xl md:h-96 md:w-96">
             <img
-              src="/src/assets/about/gila.png"
+              src="/gilas-art/assets/about/gila.png"
               alt="Gila Gilad — Art Pedagogue"
               className="h-full w-full object-cover"
             />
