@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:Usersmichl.claude -name *.md -type f)",
+      "Bash(git config:*)",
+      "Bash(find C:/Users/michl/Documents -maxdepth 3 -name CittaFracta -o -name cittafracta -o -name citta*)",
+      "Bash(find C:/Users/michl -maxdepth 5 -type d -iname *citta*)",
+      "Bash(find C:/Users/michl -maxdepth 5 -type d -iname *fracta*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(where gh.exe)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth token)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --hostname github.com --git-protocol https --web)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(\"/c/Program Files/GitHub:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where npm.cmd)",
+      "Bash(node -e \"const {spawn} = require\\(''child_process''\\); const p = spawn\\(''npm.cmd'', [''run'', ''dev''], {cwd: process.cwd\\(\\), shell: true}\\); p.stdout.on\\(''data'', d => console.log\\(d.toString\\(\\)\\)\\); p.stderr.on\\(''data'', d => console.error\\(d.toString\\(\\)\\)\\); setTimeout\\(\\(\\) => { p.kill\\(\\); }, 5000\\);\")",
+      "Bash(ls node_modules/.bin/vite*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \":*)",
+      "Bash(npx playwright:*)",
+      "Bash(node pw-screenshot.mjs)"
+    ]
+  }
+}
