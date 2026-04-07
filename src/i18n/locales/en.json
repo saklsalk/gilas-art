@@ -25,29 +25,29 @@
     "languages": "I speak English, German, Russian & Hebrew"
   },
   "classes": {
-    "heading": "Classes & Formats",
+    "heading": "Classes",
     "subheading": "Drawing, painting, crafts and sculpture — for children and adults",
     "private": {
       "title": "Private Lessons",
-      "description": "One-on-one sessions tailored entirely to you or your child. We work at your pace, on what inspires you most.",
+      "description": "One-on-one sessions tailored to you or your child. We work at your pace, on what interests you most.",
       "for": "Kids & Adults",
       "price": "From 35€ / session"
     },
     "group": {
-      "title": "Group Private Classes",
-      "description": "A small group of 2–4 students creating together. Share ideas, learn techniques, and enjoy the energy of making art side by side.",
+      "title": "Small Group Classes",
+      "description": "A group of 2–4 students creating together. A completely different kind of fun.",
       "for": "Kids & Adults",
       "price": "25€ / session"
     },
     "project": {
       "title": "Art Project Help",
-      "description": "Need help with a school art project, a portfolio, or a specific creative challenge? I'll guide you through it.",
+      "description": "Help with a school project, a portfolio, or any creative challenge.",
       "for": "Kids & Teens",
       "price": "On request"
     },
     "join": {
-      "title": "Join a Group",
-      "description": "Jump into an existing group session. A great way to try it out and meet other creative minds.",
+      "title": "Join an Existing Group",
+      "description": "Join a group that's already running. A good way to try it out and meet people.",
       "for": "Kids & Adults",
       "price": "From 18€ / session"
     },
@@ -55,7 +55,7 @@
   },
   "gallery": {
     "heading": "Gallery",
-    "subheading": "A glimpse into our creative world",
+    "subheading": "A glimpse at what we make",
     "filters": {
       "all": "All",
       "kids": "Kids",
@@ -85,10 +85,10 @@
   },
   "contact": {
     "heading": "Let's Create Together",
-    "subheading": "Flexible scheduling — write me and we'll find the perfect time",
+    "subheading": "Flexible hours — write me and we'll find a time",
     "location": "Schöneberg, Berlin",
     "whatsapp_cta": "Write Me on WhatsApp",
-    "whatsapp_prefill": "Hello! I'm interested in art classes with Gila. Could you tell me more?",
+    "whatsapp_prefill": "Hello! I'm interested in art classes with Gila. Can you tell me more?",
     "or_email": "or send an email to"
   },
   "footer": {
