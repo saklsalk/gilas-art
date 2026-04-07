@@ -3,19 +3,19 @@
     "about": "Über mich",
     "classes": "Kurse",
     "gallery": "Galerie",
-    "testimonials": "Bewertungen",
+    "testimonials": "Stimmen",
     "contact": "Kontakt"
   },
   "hero": {
-    "subtitle": "Kunstkurse bei dir Zuhause in Berlin Schöneberg",
+    "subtitle": "Kunstkurse bei dir zuhause in Berlin Schöneberg",
     "cta": "Schreib mir",
     "scroll": "Mehr entdecken"
   },
   "about": {
     "heading": "Über Gila",
-    "passage": "Kunst ist meine Sprache, solange ich denken kann. Von meinem Studium in Moskau bis zur lebendigen Kunstszene in Israel — mich hat immer der Moment fasziniert, in dem jemand zum ersten Mal einen Pinsel in die Hand nimmt und etwas über sich selbst entdeckt, das vorher verborgen war.",
-    "passage2": "Ich bringe jahrelange Erfahrung in Kunstpädagogik und Kunsttherapie mit. Ich habe mit Kindern, Jugendlichen und Erwachsenen gearbeitet — Menschen aus allen Lebensbereichen. Jeder Mensch sieht die Welt anders, und ich liebe es, ihnen zu helfen, diese einzigartige Sicht durch ihre Hände auszudrücken.",
-    "passage3": "Mein Unterricht findet in der Wärme eines Zuhauses statt, nicht in einer Institution. Hier gibt es kein Richtig oder Falsch — nur Entdeckung, Farbe und die Freude, etwas zu schaffen, das ganz und gar deins ist.",
+    "passage": "Ich habe Kunst in Moskau studiert und dann viele Jahre in Israel verbracht — als Lehrerin an einer Oberschule, mit eigenem Studio und als Kunsttherapeutin mit Menschen in der Suchtrehabilitation und mit Behinderungen.",
+    "passage2": "Diese Arbeit hat mir eines gezeigt: Jeder kann etwas schaffen — besonders die, die überzeugt sind, dass sie es nicht können. Kinder verlieren dieses Vertrauen früh. Ich habe Jahre damit verbracht, es zurückzugeben.",
+    "passage3": "Heute mache ich das in meiner Wohnung in Schöneberg — kleine Gruppen, echte Aufmerksamkeit, kein Druck.",
     "badges": {
       "education": "Kunstausbildung",
       "pedagogy": "Pädagogik",
@@ -25,29 +25,29 @@
     "languages": "Ich spreche Deutsch, Englisch, Russisch & Hebräisch"
   },
   "classes": {
-    "heading": "Kurse & Formate",
+    "heading": "Kurse",
     "subheading": "Zeichnen, Malen, Basteln und Skulptur — für Kinder und Erwachsene",
     "private": {
-      "title": "Privatunterricht",
-      "description": "Einzelstunden, ganz auf dich oder dein Kind abgestimmt. Wir arbeiten in deinem Tempo, an dem, was dich am meisten inspiriert.",
+      "title": "Einzelunterricht",
+      "description": "Ganz auf dich oder dein Kind abgestimmt. Wir arbeiten in deinem Tempo, an dem, was dich interessiert.",
       "for": "Kinder & Erwachsene",
       "price": "Ab 35€ / Stunde"
     },
     "group": {
-      "title": "Gruppenkurse",
-      "description": "Gemeinsam kreativ sein in einer kleinen Gruppe. Ideen teilen, Techniken lernen und die Energie des gemeinsamen Schaffens genießen.",
+      "title": "Kleingruppenunterricht",
+      "description": "Eine Gruppe von 2–4 Schülern, die zusammen kreativ werden. Eine ganz andere Art von Spaß.",
       "for": "Kinder & Erwachsene",
-      "price": "Ab 20€ / Stunde"
+      "price": "25€ / Stunde"
     },
     "project": {
-      "title": "Kunst-Projekthilfe",
-      "description": "Brauchst du Hilfe bei einem Schulprojekt, einem Portfolio oder einer kreativen Herausforderung? Ich begleite dich dabei.",
+      "title": "Projekthilfe",
+      "description": "Hilfe bei einem Schulprojekt, einem Portfolio oder einer anderen kreativen Aufgabe.",
       "for": "Kinder & Jugendliche",
       "price": "Auf Anfrage"
     },
     "join": {
-      "title": "Gruppe beitreten",
-      "description": "Steig in eine bestehende Gruppeneinheit ein. Eine tolle Möglichkeit, es auszuprobieren und andere kreative Köpfe kennenzulernen.",
+      "title": "Bestehende Gruppe",
+      "description": "Komm in eine laufende Gruppe. Eine gute Möglichkeit, reinzuschnuppern und Leute kennenzulernen.",
       "for": "Kinder & Erwachsene",
       "price": "Ab 18€ / Stunde"
     },
@@ -55,7 +55,7 @@
   },
   "gallery": {
     "heading": "Galerie",
-    "subheading": "Ein Blick in unsere kreative Welt",
+    "subheading": "Ein Blick auf das, was wir machen",
     "filters": {
       "all": "Alle",
       "kids": "Kinder",
@@ -84,11 +84,11 @@
     ]
   },
   "contact": {
-    "heading": "Lass uns gemeinsam kreativ werden",
-    "subheading": "Flexible Terminplanung — schreib mir und wir finden die perfekte Zeit",
+    "heading": "Lass uns loslegen",
+    "subheading": "Flexible Zeiten — schreib mir und wir finden einen Termin",
     "location": "Schöneberg, Berlin",
     "whatsapp_cta": "Schreib mir auf WhatsApp",
-    "whatsapp_prefill": "Hallo! Ich interessiere mich für Kunstkurse bei Gila. Können Sie mir mehr erzählen?",
+    "whatsapp_prefill": "Hallo! Ich interessiere mich für Kunstkurse bei Gila. Magst du mir mehr erzählen?",
     "or_email": "oder schreib eine E-Mail an"
   },
   "footer": {

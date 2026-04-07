@@ -26,7 +26,7 @@ function JoyDot({
         top: y,
       }}
       initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 0.5 }}
+      animate={{ scale: 1, opacity: 0.45 }}
       transition={{
         delay,
         duration: 0.8,
@@ -39,22 +39,22 @@ function JoyDot({
 }
 
 const JOY_DOTS = [
-  { color: '#C9A84C', size: 18, x: '15%', y: '25%', delay: 1.0 },
-  { color: '#6B1D3A', size: 12, x: '78%', y: '20%', delay: 1.2 },
-  { color: '#2D4A3E', size: 22, x: '85%', y: '60%', delay: 1.4 },
-  { color: '#E0C872', size: 10, x: '10%', y: '70%', delay: 1.1 },
-  { color: '#8B2E4F', size: 16, x: '60%', y: '75%', delay: 1.5 },
-  { color: '#C9A84C', size: 8, x: '30%', y: '15%', delay: 1.3 },
-  { color: '#3D6353', size: 14, x: '45%', y: '80%', delay: 1.6 },
-  { color: '#6B1D3A', size: 20, x: '92%', y: '40%', delay: 1.1 },
-  { color: '#E0C872', size: 12, x: '5%', y: '50%', delay: 1.7 },
+  { color: '#C2703E', size: 18, x: '15%', y: '25%', delay: 1.0 },
+  { color: '#8B0000', size: 12, x: '78%', y: '20%', delay: 1.2 },
+  { color: '#7A8B6F', size: 22, x: '85%', y: '60%', delay: 1.4 },
+  { color: '#C8A951', size: 10, x: '10%', y: '70%', delay: 1.1 },
+  { color: '#5C4033', size: 16, x: '60%', y: '75%', delay: 1.5 },
+  { color: '#D4895A', size: 8, x: '30%', y: '15%', delay: 1.3 },
+  { color: '#96A78B', size: 14, x: '45%', y: '80%', delay: 1.6 },
+  { color: '#C2703E', size: 20, x: '92%', y: '40%', delay: 1.1 },
+  { color: '#DBBF6A', size: 12, x: '5%', y: '50%', delay: 1.7 },
 ]
 
 export function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-deep-blue via-deep-blue-light to-burgundy">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-beige via-sand to-sand-light">
       {/* Joy dots — paint splashes blooming */}
       {JOY_DOTS.map((dot, i) => (
         <JoyDot key={i} {...dot} />
@@ -63,7 +63,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center">
         <motion.h1
-          className="font-display text-6xl font-bold text-cream md:text-8xl"
+          className="font-logo text-6xl text-dark-red md:text-8xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -73,14 +73,14 @@ export function Hero() {
 
         {/* Brush stroke underline */}
         <motion.div
-          className="mx-auto mt-2 h-1 rounded-full bg-gold"
+          className="mx-auto mt-2 h-1 rounded-full bg-terracotta"
           initial={{ width: 0 }}
           animate={{ width: '60%' }}
           transition={{ delay: 0.6, duration: 0.8, ease: 'easeOut' }}
         />
 
         <motion.p
-          className="mt-6 font-body text-xl text-cream/80 md:text-2xl"
+          className="mt-6 font-body text-xl text-umber/80 md:text-2xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -107,9 +107,9 @@ export function Hero() {
         style={{ animation: 'float 3s ease-in-out infinite' }}
       >
         <div className="flex flex-col items-center gap-2">
-          <span className="font-hand text-sm text-cream/50">{t('hero.scroll')}</span>
+          <span className="font-hand text-sm text-umber/50">{t('hero.scroll')}</span>
           <svg
-            className="h-5 w-5 text-cream/40"
+            className="h-5 w-5 text-umber/40"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

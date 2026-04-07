@@ -11,9 +11,9 @@ export function Testimonials() {
   }>
 
   return (
-    <Section id="testimonials" className="bg-cream-warm!">
+    <Section id="testimonials" className="bg-sand!">
       <div className="text-center">
-        <h2 className="font-display text-4xl font-bold text-deep-blue md:text-5xl">
+        <h2 className="font-display text-4xl font-bold text-dark-red md:text-5xl">
           {t('testimonials.heading')}
         </h2>
       </div>
@@ -27,24 +27,24 @@ export function Testimonials() {
             transition={{ delay: i * 0.15 }}
             viewport={{ once: true }}
             whileHover={{ rotate: 1, scale: 1.02 }}
-            className="rounded-2xl border border-gold/20 bg-cream p-6 shadow-sm transition-shadow hover:shadow-md"
+            className="rounded-2xl border border-terracotta/20 bg-beige p-6 shadow-sm transition-shadow hover:shadow-md"
             style={{
               backgroundImage:
-                'repeating-linear-gradient(transparent, transparent 27px, rgba(201,168,76,0.08) 28px)',
+                'repeating-linear-gradient(transparent, transparent 27px, rgba(194,112,62,0.06) 28px)',
             }}
           >
             {/* Quote mark */}
-            <span className="font-display text-5xl leading-none text-gold/30">
+            <span className="font-display text-5xl leading-none text-terracotta/30">
               &ldquo;
             </span>
-            <p className="mt-2 font-body text-base leading-relaxed text-charcoal-light italic">
+            <p className="mt-2 font-body text-base leading-relaxed text-umber-light italic">
               {item.quote}
             </p>
-            <div className="mt-6 border-t border-gold/15 pt-4">
-              <p className="font-ui text-sm font-semibold text-deep-blue">
+            <div className="mt-6 border-t border-terracotta/15 pt-4">
+              <p className="font-ui text-sm font-semibold text-dark-red">
                 {item.name}
               </p>
-              <p className="font-hand text-base text-burgundy">{item.detail}</p>
+              <p className="font-hand text-base text-terracotta">{item.detail}</p>
             </div>
           </motion.div>
         ))}

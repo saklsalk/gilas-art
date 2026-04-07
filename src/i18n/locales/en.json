@@ -13,9 +13,9 @@
   },
   "about": {
     "heading": "About Gila",
-    "passage": "Art has been my language for as long as I can remember. From my early studies in Moscow to the vibrant art scene in Israel, I've always been drawn to the moment when someone picks up a brush for the first time — and discovers something about themselves they didn't know was there.",
-    "passage2": "I bring years of experience in art education and art therapy. I've worked with children, teenagers, adults — people from all walks of life. Each person sees the world differently, and I love helping them express that unique vision through their hands.",
-    "passage3": "My classes happen in the warmth of a home, not an institution. Here, there is no right or wrong — only discovery, colour, and the joy of creating something that is truly yours.",
+    "passage": "I studied art in Moscow, then spent years in Israel — teaching high school, running my own studio, doing art therapy with people in recovery and with disabilities.",
+    "passage2": "That work taught me one thing: everyone can make something, especially the ones who are sure they can't. Children lose that confidence early. I've spent a career giving it back.",
+    "passage3": "Now I do it from my apartment in Schöneberg — small groups, real attention, no pressure.",
     "badges": {
       "education": "Art Education",
       "pedagogy": "Pedagogy",
@@ -25,29 +25,29 @@
     "languages": "I speak English, German, Russian & Hebrew"
   },
   "classes": {
-    "heading": "Classes & Formats",
+    "heading": "Classes",
     "subheading": "Drawing, painting, crafts and sculpture — for children and adults",
     "private": {
       "title": "Private Lessons",
-      "description": "One-on-one sessions tailored entirely to you or your child. We work at your pace, on what inspires you most.",
+      "description": "One-on-one sessions tailored to you or your child. We work at your pace, on what interests you most.",
       "for": "Kids & Adults",
       "price": "From 35€ / session"
     },
     "group": {
-      "title": "Group Classes",
-      "description": "Create together in a small group. Share ideas, learn techniques, and enjoy the energy of making art side by side.",
+      "title": "Small Group Classes",
+      "description": "A group of 2–4 students creating together. A completely different kind of fun.",
       "for": "Kids & Adults",
-      "price": "From 20€ / session"
+      "price": "25€ / session"
     },
     "project": {
       "title": "Art Project Help",
-      "description": "Need help with a school art project, a portfolio, or a specific creative challenge? I'll guide you through it.",
+      "description": "Help with a school project, a portfolio, or any creative challenge.",
       "for": "Kids & Teens",
       "price": "On request"
     },
     "join": {
-      "title": "Join a Group",
-      "description": "Jump into an existing group session. A great way to try it out and meet other creative minds.",
+      "title": "Join an Existing Group",
+      "description": "Join a group that's already running. A good way to try it out and meet people.",
       "for": "Kids & Adults",
       "price": "From 18€ / session"
     },
@@ -55,7 +55,7 @@
   },
   "gallery": {
     "heading": "Gallery",
-    "subheading": "A glimpse into our creative world",
+    "subheading": "A glimpse at what we make",
     "filters": {
       "all": "All",
       "kids": "Kids",
@@ -85,10 +85,10 @@
   },
   "contact": {
     "heading": "Let's Create Together",
-    "subheading": "Flexible scheduling — write me and we'll find the perfect time",
+    "subheading": "Flexible hours — write me and we'll find a time",
     "location": "Schöneberg, Berlin",
     "whatsapp_cta": "Write Me on WhatsApp",
-    "whatsapp_prefill": "Hello! I'm interested in art classes with Gila. Could you tell me more?",
+    "whatsapp_prefill": "Hello! I'm interested in art classes with Gila. Can you tell me more?",
     "or_email": "or send an email to"
   },
   "footer": {
