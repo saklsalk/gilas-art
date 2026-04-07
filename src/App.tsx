@@ -47,7 +47,7 @@ function HomePage() {
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/gilas-art/">
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
