@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://saklsalk.github.io/gilas-art/</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://saklsalk.github.io/gilas-art/?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://saklsalk.github.io/gilas-art/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://saklsalk.github.io/gilas-art/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://saklsalk.github.io/gilas-art/?lang=he"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://saklsalk.github.io/gilas-art/?lang=de"/>
     <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
