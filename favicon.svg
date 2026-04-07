@@ -1,7 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="45" fill="#1B2A4A"/>
-  <text x="50" y="65" font-family="serif" font-size="42" font-weight="bold" fill="#C9A84C" text-anchor="middle">G</text>
-  <circle cx="75" cy="25" r="6" fill="#6B1D3A" opacity="0.7"/>
-  <circle cx="25" cy="30" r="4" fill="#2D4A3E" opacity="0.6"/>
-  <circle cx="70" cy="75" r="5" fill="#C9A84C" opacity="0.5"/>
+  <!-- Terracotta background circle -->
+  <circle cx="50" cy="50" r="48" fill="#C0654A"/>
+
+  <!-- G letter -->
+  <text x="44" y="63" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#F5EDD6" text-anchor="middle">G</text>
+
+  <!-- Paintbrush — handle -->
+  <rect x="68" y="18" width="5" height="28" rx="2" fill="#F5EDD6" transform="rotate(35 70 30)"/>
+  <!-- Paintbrush — ferrule -->
+  <rect x="68" y="44" width="5" height="7" rx="1" fill="#D4956A" transform="rotate(35 70 30)"/>
+  <!-- Paintbrush — bristles -->
+  <ellipse cx="76" cy="22" rx="4" ry="7" fill="#8B4C3A" transform="rotate(35 76 22)"/>
+
+  <!-- Small paint dot accent -->
+  <circle cx="22" cy="72" r="4" fill="#F5EDD6" opacity="0.5"/>
 </svg>
